@@ -46,7 +46,8 @@ export const Blogs = [
         tags:["HTML", "CSS", "Javascript"],
         date:"3 Feb, 2021",
         imgSrc: recipe,
-        link:"https://www.youtube.com/watch?v=3m4iwrLcPho"
+        link: "https://trusting-davinci-da89f0.netlify.app/"
+        // link:"https://www.youtube.com/watch?v=3m4iwrLcPho"
     },
     {
         id:6,
@@ -54,7 +55,8 @@ export const Blogs = [
         tags:["HTML", "CSS", "Javascript"],
         date:"5 Jan, 2021",
         imgSrc: geodemo,
-        link:"https://www.youtube.com/watch?v=YxLB81w7SOA"
+        link: "https://pedantic-archimedes-1b82a1.netlify.app/"
+        // link:"https://www.youtube.com/watch?v=YxLB81w7SOA"
 
     },
    
@@ -64,7 +66,8 @@ export const Blogs = [
         tags:["HTML", "CSS", "Javascript"],
         date:"16 May, 2021",
         imgSrc: quote,
-        link:"https://www.youtube.com/watch?v=Bg_yr-umKDA"
+        link: "https://clever-mclean-f4d524.netlify.app/"
+        // link:"https://www.youtube.com/watch?v=Bg_yr-umKDA"
     },
     {
         id:8,
