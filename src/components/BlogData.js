@@ -5,6 +5,7 @@ import recipe from '../assets/Images/recipe.png';
 import geodemo from '../assets/Images/geodemo.png';
 import resumeImage from '../assets/Images/resumeImage.png';
 import ubereats from '../assets/Images/ubereats3.png';
+import starzoid from '../assets/Images/starzoid.png';
 // import numbers from '../assets/Images/know_Your_Numbers.png';
 export const Blogs = [
     {
@@ -65,13 +66,13 @@ export const Blogs = [
         imgSrc: quote,
         link:"https://www.youtube.com/watch?v=Bg_yr-umKDA"
     },
-    // {
-    //     id:8,
-    //     name:"How to create Sidebar navigation menu in ReactJS with react router and framer-motion",
-    //     tags:["react","framer-motion","styled-components"],
-    //     date:"26 May, 2021",
-    //     imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--rv4I8UwE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0a9h50milhlf1us6mn4a.png",
-    //     link:"https://dev.to/codebucks/build-sidebar-navigation-menu-in-reactjs-with-react-router-and-framer-motion-for-cool-page-transition-effects-4bc3"
-    // },
+    {
+        id:8,
+        name:"Starzoid - Application to view Astronomical pictures with facts from NASA API",
+        tags:["React","Material UI","styled-components"],
+        date:"26 May, 2021",
+        imgSrc: starzoid,
+        link:"https://vigorous-shirley-cd696e.netlify.app/"
+    },
   
 ] 
