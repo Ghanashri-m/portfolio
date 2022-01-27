@@ -48,8 +48,8 @@ const Main = styled(motion.ul)`
   top: 12rem;
   left: calc(9rem + 1vw);
 
-  height: 40vh;
-  /* height:200vh; */
+//   height: 40vh;
+  height:200vh;
   //border:1px solid white;
 
   display: flex;
