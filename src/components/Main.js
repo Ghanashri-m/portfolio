@@ -145,6 +145,10 @@ const SKILLS = styled(NavLink)`
   color: ${(props) => props.theme.text};
   text-decoration: none;
 `;
+const TESTIMONILAS = styled(NavLink)`
+  color: ${(props) => props.theme.text};
+  text-decoration: none;
+`;
 const DarkDiv = styled.div`
   position: absolute;
   top: 0;
@@ -197,7 +201,7 @@ const Main = () => {
         key="modal"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        exit={path === "about" || path === "skills" ? moveY : moveX}
+        exit={path === "about" || path === "skills" || path === "testimonials"? moveY : moveX}
         transition={{ duration: 0.5 }}
       >
         <DarkDiv click={click} />
@@ -348,7 +352,23 @@ const Main = () => {
                 About
               </motion.h2>
             </ABOUT>
-
+            <TESTIMONILAS to="/testimonials">
+              <motion.h2
+                onClick={() => setpath("testimonials")}
+                initial={{
+                  y: 200,
+                  transition: { type: "spring", duration: 1.5, delay: 1 },
+                }}
+                animate={{
+                  y: 0,
+                  transition: { type: "spring", duration: 1.5, delay: 1 },
+                }}
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+              >
+                Testimonials
+              </motion.h2>
+            </TESTIMONILAS>
             <SKILLS to="/skills">
               <motion.h2
                 onClick={() => setpath("skills")}

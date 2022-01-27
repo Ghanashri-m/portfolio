@@ -12,6 +12,7 @@ const AboutPage = lazy(() => import("./components/AboutPage"));
 const MySkillsPage = lazy(() => import("./components/MySkillsPage"));
 const BlogPage = lazy(() => import("./components/BlogPage"));
 const WorkPage = lazy(() => import("./components/WorkPage"));
+const TestimonialsPage = lazy(() => import("./components/TestimonialsPage"));
 const SoundBar = lazy(() => import("./subComponents/SoundBar"));
 
 function App() {
@@ -34,6 +35,8 @@ function App() {
               <Route exact path="/projects" component={BlogPage} />
 
               <Route exact path="/work" component={WorkPage} />
+
+              <Route exact path="/testimonials" component={TestimonialsPage} />
 
               <Route exact path="/skills" component={MySkillsPage} />
             </Switch>

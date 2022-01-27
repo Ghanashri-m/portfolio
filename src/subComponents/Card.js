@@ -1,7 +1,5 @@
 import { motion } from "framer-motion";
-import { NavLink } from "react-router-dom";
 import styled from "styled-components";
-import { Github } from "../components/AllSvgs";
 import file from '../assets/Ghanashri-Resume.pdf';
 import { mediaQueries } from "../components/Themes";
 
@@ -107,16 +105,16 @@ const Link = styled.a`
     color: ${(props) => props.theme.body};
   }
 `;
-const Git = styled(NavLink)`
-  color: inherit;
-  text-decoration: none;
+// const Git = styled(NavLink)`
+//   color: inherit;
+//   text-decoration: none;
 
-  ${Box}:hover & {
-    & > * {
-      fill: ${(props) => props.theme.text};
-    }
-  }
-`;
+//   ${Box}:hover & {
+//     & > * {
+//       fill: ${(props) => props.theme.text};
+//     }
+//   }
+// `;
 
 const item = {
   hidden: { scale: 0 },
@@ -124,7 +122,7 @@ const item = {
 };
 //const tags = ["react","gsap","javascript"]
 const Card = (props) => {
-  const { id, name, description, tags, demo, github } = props.data;
+  const { id, name, description, tags } = props.data;
   return (
     <Box key={id} variants={item}>
       <Title>{name}</Title>
