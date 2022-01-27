@@ -42,7 +42,7 @@ export const Testimonials = [
         id:4,
         name:"Asif Buhari",
         position: "Lead Software Engineer at EPAM Systems",
-        description:"Ghanashri has been a fantastic team player and is well-known for her consistency. She was remarkable in meeting the customer deliverables and there weren't any slippages from the works assigned to her. Her ability to act independent and pro active performance makes her unique. Keep up the good work and way to go !!! Cheers for all the hard work within a short span !!!Ghanashri is an amazing professional, who brings all of the skills and expertise in programming and application development. Working with Ghanashri is a rare opportunity to come across, a self-driven individual with teamwork spirit. Ghanashri is an extremely creative and innovative person, who’s also best in guiding her peer employees. She is a good asset to any team any day.",
+        description:"Ghanashri has been a fantastic team player and is well-known for her consistency. She was remarkable in meeting the customer deliverables and there weren't any slippages from the works assigned to her. Her ability to act independent and pro active performance makes her unique. Keep up the good work and way to go !!! Cheers for all the hard work within a short span !!!",
         link: "https://www.linkedin.com/in/asif11ofi/",
         // tags:["ReactJS","Material UI", "JavaScript", "HTML", "CSS"],
         
