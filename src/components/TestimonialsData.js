@@ -42,7 +42,7 @@ export const Testimonials = [
         id:4,
         name:"Asif Buhari",
         position: "Lead Software Engineer at EPAM Systems",
-        description:"Ghanashri has been a fantastic team player and is well-known for her consistency. She was remarkable in meeting the customer deliverables and there weren't any slippages from the works assigned to her. Her ability to act independent and pro active performance makes her unique. Keep up the good work and way to go !!! Cheers for all the hard work within a short span !!!",
+        description:"Ghanashri has been a fantastic team player and is well-known for her consistency. She was remarkable in meeting the customer deliverables and there weren't any slippages from the works assigned to her. Her ability to act independent and pro active performance makes her unique. Keep up the good work and way to go !!! Cheers for all the hard work within a short span !!!.",
         link: "https://www.linkedin.com/in/asif11ofi/",
         // tags:["ReactJS","Material UI", "JavaScript", "HTML", "CSS"],
         
@@ -54,7 +54,7 @@ export const Testimonials = [
         id:5,
         name:"Seshathri Rengasamy",
         position: "Senior Software Engineer at IQVIA",
-        description:"Ghanashri is one of the greatest professional to work with. She consistently demonstrated strong work ethics and also dedication to success. She has an easiness to build interpersonal relations with others, she was always able to successfully complete the assigned tasks with favourable results despite deadline pressure . For ghanashri job is always the most important thing to do . Very positive attitude towards work. She definitely shines in busy environment . Definitely worth recommending",
+        description:"Ghanashri is one of the greatest professional to work with. She consistently demonstrated strong work ethics and also dedication to success. She has an easiness to build interpersonal relations with others, she was always able to successfully complete the assigned tasks with favourable results despite deadline pressure . For ghanashri job is always the most important thing to do . Very positive attitude towards work. She definitely shines in busy environment. Definitely worth recommending.",
         link: "https://www.linkedin.com/in/seshathri-rengasamy-5b975199/",
         // tags:["ReactJS","Material UI", "JavaScript", "HTML", "CSS"],
         
