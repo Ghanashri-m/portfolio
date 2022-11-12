@@ -6,6 +6,8 @@ import geodemo from '../assets/Images/geodemo.png';
 import resumeImage from '../assets/Images/resumeImage.png';
 import ubereats from '../assets/Images/ubereats3.png';
 import starzoid from '../assets/Images/starzoid.png';
+import cows from '../assets/Images/cows.png';
+import birthday from '../assets/Images/birthday.png';
 // import numbers from '../assets/Images/know_Your_Numbers.png';
 export const Blogs = [
     {
@@ -76,6 +78,22 @@ export const Blogs = [
         date:"26 May, 2021",
         imgSrc: starzoid,
         link:"https://vigorous-shirley-cd696e.netlify.app/"
+    },
+    {
+        id:9,
+        name:"Birthday application for friends",
+        tags:["HTML","CSS","Javascript"],
+        date:"10 May, 2022",
+        imgSrc: birthday,
+        link:"https://eclectic-mandazi-4ba595.netlify.app/"
+    },
+    {
+        id:10,
+        name:"Can you play Cows & Bulls?",
+        tags:["React","Material UI","styled-components"],
+        date:"28 June, 2022",
+        imgSrc: cows,
+        link:"https://jade-manatee-9ab3d0.netlify.app/index.html"
     },
   
 ] 
